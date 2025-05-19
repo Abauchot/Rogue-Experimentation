@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import axios from '../api/axios'
+import axios from '../api/axios.js'
 
 export default function Login() {
   const [identifier, setIdentifier] = useState('')
